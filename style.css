@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ 
+ body{
+   margin: auto 0;
+    background-color: coral;
+ }
+ h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    padding: 40px;
+    margin: auto 0;
+ }
+ 
+ form{
+   background-color: #F0F8FF;
+   padding:20px;
+ justify-content:center;
+  
+ }
+ .countdown{
+   font-size:80px;
+   padding:5px;
+   margin:80px;
+   color: #5f9ea0;
+ 
+ }
+ h1{
+   font-size:30px;
+ 
+ }
+ 
+ label {
+ color: black;
+ font-weight: bold;
+ width: 150px;
+ padding:30px;
+ margin:80px;
+ }
+ 
+ select.year{
+  
+  padding:20px;
+ }
+ select.day{
+  background-color:blue;
+  color: white;
+  width:140px;
+  padding:0px;
+ }
+ option {
+     font-weight: normal;
+     display: block;
+     white-space: pre;
+     min-height: 1.2em;
+     padding: 0px 20px 1px;
+ }
+ button{
+ background-color:coral;
+  color: white;
+  width:140px;
+  padding:20px;
+  margin:50px;
+ }
+ .container{
+ width:400px;
+ margin:100px;
+ padding:30px;
+ font-size:60px;
+ background-color:#6495ED;
+ justify-content:center;
+ 
+ }
+ /*for tablet*/
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+ body{
+   margin: auto 0;
+    background-color: darkcyan;
+ }
+ h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    padding: 10px;
+    margin: auto 0;
+ }
+ 
+ form{
+ background-color: #F0F8FF;
+ padding:20px;
+   
+ 
+  
+ }
+ .countdown{
+   font-size:60px;
+   padding:5px;
+   margin:80px;
+   color: #5f1ea0;
+ 
+ }
+ h1{
+   font-size:30px;
+ 
+ }
+ 
+ label {
+ 
+ display: inline-block;
+ color: blue;
+ font-weight: bold;
+ padding: 12px 12px 12px 0;
+   
+ }
+ 
+ input[type=text], select, textarea{
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+ }
+ option {
+     font-weight: normal;
+     display: auto;
+     white-space: pre;
+     min-height: 1.2em;
+     padding: 0px 20px 1px;
+ }
+ button{
+ background-color:coral;
+  color: white;
+  width:140px;
+  padding:20px;
+  margin:50px;
+ }
+ .container{
+ width:300px;
+ margin:100px;
+ padding:30px;
+ font-size:40px;
+ background-color:#6415ED;
+ justify-content:center;
+ 
+ }
+ 
+ 
+ 
+ }
+ 
+ 
+ 
